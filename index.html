@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/css/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <title>Aler</title>
+</head>
+
+<body>
+    <header id="header" class="container ">
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="">
+        </div>
+
+        <div class="contact hidden-xs">
+            <div class="contact-box">
+                <i class="material-icons">
+                    mail
+                </i>
+                <span>Aler.support@gmail.com</span>
+            </div>
+            <div class="contact-box">
+                <i class="material-icons">
+                    phone
+                </i>
+                <span> 125-711-811 | 125-668-886</span>
+            </div>
+            <button class="contact-submit">
+                Submit Property
+            </button>
+        </div>
+        <div class="menu-mobile d-block d-lg-none" data-toggle="collapse" data-target="#nav-mobile" aria-expanded="false" aria-controls="nav-mobile" >
+            <i class="material-icons">
+                menu
+            </i>
+        </div>
+    </header>
+    <div id="nav-mobile" class="container collapse d-lg-none">
+        <ul>
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Properties
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Agents
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <nav id="menu-nav-navbar" class="d-none d-lg-flex">
+        <div class="container">
+            <ul id="nav-menu-ul">
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Properties
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Agents
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <div class="social-media">
+                <div class="social-icon">
+                    <a href="">
+
+                        <img src="assets/img/social-media/facebook.png" alt="">
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a href="">
+                        <img src="assets/img/social-media/twitter.png" alt="">
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a href="">
+                        <img src="assets/img/social-media/youtube.png" alt="">
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a href="">
+                        <img src="assets/img/social-media/instagram.png" alt="">
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a href="">
+                        <img src="assets/img/social-media/pinterestp.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="house-slide" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner carousel-ct">
+
+            <div class="carousel-item active house ">
+                <img class="d-block" src="assets/img/hero/hero-1.jpg" alt="">
+                <div class="house-info-container">
+                    <div class="house-info flex-column flex-md-row">
+                        <div class="left">
+                            <h2 class="house-name">
+                                Balaji Symphony
+                            </h2>
+                            <div class="house-location">
+                                <i  class="lnr lnr-map-marker"></i>
+                                <span>
+                                    Panvel, Navi muambi
+                                </span>
+                            </div>
+                            <div class="house-pricing">
+                                <span class="house-status">For rent</span>
+                                <span class="house-price"><strong>$ 65.0</strong>/month</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="row">
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-object-group"></i>
+                                    <span>2,283</span>
+                                </div>
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-bath"></i>
+                                    <span>03</span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-bed"></i>
+                                    <span>05</span>
+                                </div>
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-car"></i>
+                                    <span>01</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item house">
+                <img class="d-block " src="assets/img/hero/hero-2.jpg" alt="">
+                <div class="house-info-container">
+
+                    <div class="house-info flex-column flex-md-row">
+                        <div class="left">
+                            <h2 class="house-name">
+                                Balaji Symphony
+                            </h2>
+                            <div class="house-location">
+                                <i  class="lnr lnr-map-marker"></i>
+                                <span>
+                                    Panvel, Navi muambi
+                                </span>
+                            </div>
+                            <div class="house-pricing">
+                                <span class="house-status">For rent</span>
+                                <span class="house-price"><strong>$ 65.0</strong>/month</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="row">
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-object-group"></i>
+                                    <span>2,283</span>
+                                </div>
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-bath"></i>
+                                    <span>03</span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-bed"></i>
+                                    <span>05</span>
+                                </div>
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-car"></i>
+                                    <span>01</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item house ">
+                <img class="d-block " src="assets/img/hero/hero-3.jpg" alt="">
+                <div class="house-info-container">
+                    <div class="house-info flex-column flex-md-row">
+                        <div class="left">
+                            <h2 class="house-name">
+                                Balaji Symphony
+                            </h2>
+                            <div class="house-location">
+                                <i  class="lnr lnr-map-marker"></i>
+                                <span>
+                                    Panvel, Navi muambi
+                                </span>
+                            </div>
+                            <div class="house-pricing">
+                                <span class="house-status">For rent</span>
+                                <span class="house-price"><strong>$ 65.0</strong>/month</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="row">
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-object-group"></i>
+                                    <span>2,283</span>
+                                </div>
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-bath"></i>
+                                    <span>03</span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-bed"></i>
+                                    <span>05</span>
+                                </div>
+                                <div class="col-6 house-resource">
+                                    <i class="fa fa-car"></i>
+                                    <span>01</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#house-slide" role="button" data-slide="prev">
+            <i class="material-icons">arrow_back</i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#house-slide" role="button" data-slide="next">
+            <i class="material-icons">arrow_forward</i>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+
+
+    <!-- Início Where would you rather live? -->
+    <section class="where-would">
+        <div class="container">
+            <div class="row justify-content-between container header-of-wwould">
+                <div class="ww col-12 col-sm-7">
+                    <h2 class="h2title">WHERE WOULD YOU RATHER LIVE?</h2>
+                </div>
+                <div class="rent-sale col-12 col-sm-5">
+                    <div class="row botoes">
+                        <button class="button col-12 col-sm-6 rent">FOR RENT</button>
+                        <button class="button col-12 col-sm-6 sale">FOR SALE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row filtersAndsearch">
+                <div class="row fline container">
+                    <div class="choose-the-city filter col-sm-12 col-md-4">
+                        <button class="button">
+                            <span class="text">Choose the city</span>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </button>
+                    </div>
+                    <div class="location filter col-sm-12 col-md-4">
+                        <button class="button">
+                            <span class="text">Location</span>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </button>
+                    </div>
+                    <div class="property-status filter col-sm-12 col-md-4">
+                        <button class="button">
+                            <span class="text">Status</span>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row sline container">
+                    <div class="property-type filter col-sm-12 col-md-4">
+                        <button class="button">
+                            <span class="text">Property Type</span>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </button>
+                    </div>
+                    <div class="no-of-bedrooms filter col-sm-12 col-md-4">
+                        <button class="button">
+                            <span class="text">No Of Bedrooms</span>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </button>
+                    </div>
+                    <div class="no-of-bathrooms filter col-sm-12 col-md-4">
+                        <button class="button">
+                            <span class="text">No Of Bathrooms</span>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row tline container">
+                    <div class="size col-sm-12 col-md-4">
+                        <span>Size: [0-2100]sqft</span>
+                        <input type="range" class="size ranged">
+                    </div>
+                    <div class="price col-sm-12 col-md-4">
+                        <span>PRICE: [ 0 - 1400 ] U$
+                        </span>
+                        <input id="price" type="range" class="ranged">
+                    </div>
+                    <div class="search col-sm-12 col-md-4">
+                        <button class="button search ">SEARCH</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row fourthline container">
+                <div class="moptions">
+                    <a href="#"><span class="material-icons">add</span></a>
+                    <span class="moreSO">More Search Options</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Where would you rather live? -->
+
+    <!-- Inicio lista de apartamentos -->
+    <section id="grid-ap">
+        <div class="container">
+            <div class="section-title " id="grid-ap-title">
+                <h2 class="h2title">latest property</h2>
+                <div class="menu-list">
+                    <ul>
+                        <li><a href="#grid-ap">All</a></li>
+                        <li><a href="#grid-ap">Apartment</a></li>
+                        <li><a href="#grid-ap">House</a></li>
+                        <li><a href="#grid-ap">Office</a></li>
+                        <li><a href="#grid-ap">Hotel</a></li>
+                        <li><a href="#grid-ap">Restaurent</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img">
+                        <img src="assets/img/property/property-1.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                            <i class="material-icons">
+                                favorite_border
+                            </i>
+                        </span>
+                    </div>
+                    <h2>Home in Merrick Way</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>3 Middle Winchendon Rd, Rindge, NH 03461</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,823</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+                        
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call"> Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img redrent">
+                        <img src="assets/img/property/property-2.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                        </span>
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                    </div>
+                    <h2>Unimont Aurum</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>Gut No.102, Opp. HP Petrol Pump, Karjat</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,283</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call"> Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img redrent">
+                        <img src="assets/img/property/property-3.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                        </span>
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                    </div>
+                    <h2>Vrindavan Flora</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>No. 15, 16, 17-1A And 17-2, Rasayani, Rasayani</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,283</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call"> Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img">
+                        <img src="assets/img/property/property-4.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                        </span>
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                    </div>
+                    <h2>Shramik Vaibhav</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>12 Pt at Shedung, Panvel, Raigarh, Navi Mumbai</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,283</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call">Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img darkgreenrent">
+                        <img src="assets/img/property/property-5.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                        </span>
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                    </div>
+                    <h2>Poddar Wondercity</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>Badlapur East, Beyond Thane</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,283</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call"> Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img">
+                        <img src="assets/img/property/property-6.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                        </span>
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                    </div>
+                    <h2> GoldCrest Residency</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>No.7, Sector- 11, Ghansoli, Mumbai, Navi Mumbai</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,283</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call"> Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img redrent">
+                        <img src="assets/img/property/property-7.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                        </span>
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                    </div>
+                    <h2>Kangoroo Palace</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>Coala Panfum, Aborkada</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,283</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call"> Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img darkgreenrent">
+                        <img src="assets/img/property/property-8.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                        </span>
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                    </div>
+                    <h2>Dracarys Zaldrizes</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>Valiria, Westeros</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,283</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call"> Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+                <div class="col-md-4 apartamento-box">
+                    <div class="apartamento-img">
+                        <img src="assets/img/property/property-9.jpg" alt="">
+                    </div>
+                    <div class="apartamento-price">
+                        <span>
+                            <strong>$ 289.0</strong>/month
+                        </span>
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                    </div>
+                    <h2>Space Offices</h2>
+                    <div class="apartamento-location">
+                        <i  class="lnr lnr-map-marker"></i>
+                        <span>No.42, Milk Galaxy, Earth</span>
+                    </div>
+                    <div class="apartamento-recursos">
+                        <div class="recursos-box">
+                            <i class="fa fa-object-group"></i>
+                            <span>2,283</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bath"></i>
+                            <span>03</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-bed"></i>
+                            <span>05</span>
+                        </div>
+                        <div class="recursos-box">
+                            <i class="fa fa-car"></i>
+                            <span>01</span>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="apartamento-owner">
+                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
+                        <span id="counselor-call"> Ashton Kutcher</span>
+                        <span>123-455-688</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Início Why Choose Us -->
+    <section id="chooseus">
+        <div id="div-chooseus" class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h5 class="h5tittle">WHY CHOOSE US</h5>
+                    <div class="wcu-header">
+                        <p class="pwcu">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an
+                            unknown printer took a gallery of type and scrambled it to make a type specimen book</p>
+                    </div>
+                    <div class="wcu-area">
+                        <div class="row">
+
+                            <div class="wcu-body col-12 col-lg-6">
+                                <div class="wcu-img">
+                                    <img src="./assets/img/chooseus/chooseus-icon-1.png" alt="chooseus-icon-1"
+                                        class="img-chooseus">
+                                </div>
+
+                                <div class="wcu-text">
+                                    <h3 class="h2whychooseus">Find your future home</h3>
+                                        <p class="pwcu">We help you find a new home by offering a smart real estate</p>
+                                </div>
+                            </div>
+
+                            <div class="wcu-body col-12 col-lg-6">
+                                <div class="wcu-img">
+                                    <img src="./assets/img/chooseus/chooseus-icon-2.png" alt="chooseus-icon-2"
+                                        class="img-chooseus">
+                                </div>
+
+                                <div class="wcu-text">
+                                    <h3 class="h2whychooseus">Buy or rent homes</h3>
+                                        <p class="pwcu">Millions of houses and apartments in your favourite cities</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="wcu-body col-12 col-lg-6">
+                                <div class="wcu-img">
+                                    <img src="./assets/img/chooseus/chooseus-icon-3.png" alt="chooseus-icon-3"
+                                        class="img-chooseus">
+                                </div>
+
+                                <div class="wcu-text">
+                                    <h3 class="h2whychooseus">Experienced agents</h3>
+                                        <p class="pwcu">Find an agent who knows your market best</p>
+                                </div>
+                            </div>
+
+                            <div class="wcu-body col-12 col-lg-6">
+                                <div class="wcu-img">
+                                    <img src="./assets/img/chooseus/chooseus-icon-4.png" alt="chooseus-icon-4"
+                                        class="img-chooseus">
+                                </div>
+
+                                <div class="wcu-text">
+                                    <h3 class="h2whychooseus">List your own property</h3>
+                                        <p class="pwcu">Sign up now and sell or rent your own properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Why Choose Us -->
+
+
+    <!-- Início Feature Property -->
+    <section class="feature-property">
+        <div id="div-feature-property" class="container-fluid">
+            <div class="row m-0">
+                <div id="div-fp-navbar" class="col-lg-4 col-12">
+                    <div id="div-fp-navbar-int">
+                        <h5 class="h5tittle">FEATURE PROPERTY</h5>
+
+                        <div id="navbar-feature-property" class="navbar navbar-expand-sm navbar-toggle">
+                            <ul id="fp-navbar-ul"
+                                class="nav navbar-nav mr-auto d-flex flex-row flex-wrap justify-content-center">
+                                <li class="fp-navbar-li">
+                                    <a href="#" class="fp-navbar-a">Apartment</a>
+                                </li>
+                                <li class="fp-navbar-li">
+                                    <a href="#" class="fp-navbar-a">House</a>
+                                </li>
+                                <li class="fp-navbar-li">
+                                    <a href="#" class="fp-navbar-a">Office</a>
+                                </li>
+                                <li class="fp-navbar-li">
+                                    <a href="#" class="fp-navbar-a">Hotel</a>
+                                </li>
+                                <li class="fp-navbar-li">
+                                    <a href="#" class="fp-navbar-a">Villa</a>
+                                </li>
+                                <li class="fp-navbar-li">
+                                    <a href="#" id="a-noborder" class="fp-navbar-a">Restaurent</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button id="button-feature-property">VIEW ALL PROPERTY</button>
+                    </div>
+                </div>
+
+                <div id="div-fp-img" class="d-flex flex-wrap col-lg-8 col-12">
+                    <div id="div-fp-carousel" class="carousel slide" data-ride="carousel">
+                        <div id="fp-carousel" class="carousel-inner">
+                            <div class="carousel-item" data-interval="7000">
+                                <img src="./assets/img/feature-property/fp-1.jpg" alt="" class="fp-img-carousel d-block img-fluid">
+                                <div class="fp-carousel-spans">
+                                    <div class="fp-spans-left">
+                                        <span class="fp-title">Home in Merrick Way</span>
+                                        <span class="fp-location fp-location-icon lnr lnr-map-marker"></span>
+                                        <span class="fp-location fp-location-p">3 Middle Winchendon Rd, Rindge, NH 03461</span>
+            
+                                        <div class="fp-price">
+                                            <span class="fp-forrent">FOR RENT</span>
+                                            <span class="fp-value">$ 289.0<span class="fp-month">/month</span></span>
+                                        </div>
+                                    </div>
+            
+                                    <div class="fp-spans-right">
+                                        <div class="fp-spans-icons">
+                                            <span class="fp-icons fa fa-object-group"></span>
+                                            <span class="fp-spans-numbers">2,283</span>
+                                        </div>
+            
+                                        <div class="fp-spans-icons">
+                                            <span class="fp-icons fa fa-bath"></span>
+                                            <span class="fp-spans-numbers">03</span>
+                                        </div>
+            
+                                        <div class="fp-spans-icons">
+                                            <span class="fp-icons fa fa-bed"></span>
+                                            <span class="fp-spans-numbers">05</span>
+                                        </div>
+            
+                                        <div class="fp-spans-icons">
+                                            <span class="fp-icons fa fa-car"></span>
+                                            <span class="fp-spans-numbers">01</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item active" data-interval="8000">
+                                <img src="./assets/img/feature-property/fp-2.jpg" alt="" class="fp-img-carousel d-block img-fluid">
+                                <div class="fp-carousel-spans">
+                                    <div class="fp-spans-left">
+                                        <span class="fp-title">Home in Merrick Way</span>
+                                        <span class="fp-location fp-location-icon lnr lnr-map-marker"></span>
+                                        <span class="fp-location fp-location-p">3 Middle Winchendon Rd, Rindge, NH 03461</span>
+            
+                                        <div class="fp-price">
+                                            <span class="fp-forrent">FOR RENT</span>
+                                            <span class="fp-value">$ 289.0<span class="fp-month">/month</span></span>
+                                        </div>
+                                    </div>
+            
+                                    <div class="fp-spans-right">
+                                        <div class="fp-spans-icons">
+                                            <span class="fp-icons fa fa-object-group"></span>
+                                            <span class="fp-spans-numbers">2,283</span>
+                                        </div>
+            
+                                        <div class="fp-spans-icons">
+                                            <span class="fp-icons fa fa-bath"></span>
+                                            <span class="fp-spans-numbers">03</span>
+                                        </div>
+            
+                                        <div class="fp-spans-icons">
+                                            <span class="fp-icons fa fa-bed"></span>
+                                            <span class="fp-spans-numbers">05</span>
+                                        </div>
+            
+                                        <div class="fp-spans-icons">
+                                            <span class="fp-icons fa fa-car"></span>
+                                            <span class="fp-spans-numbers">01</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#div-fp-carousel" role="button" data-slide="prev">
+                            <i class="material-icons">arrow_back</i>
+                        </a>
+
+                        <a class="carousel-control-next" href="#div-fp-carousel" role="button" data-slide="next">
+                            <i class="material-icons">arrow_forward</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Feature Property -->
+
+
+    <!--Início Latest Property-->
+    <section class="latest_property">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="h2title">latest property</h2>
+                <button class="button" href="#">
+                    <div class="all-couns d-flex align-items-center">
+                        <i class="material-icons">person</i>
+                        <strong>ALL COUNSELORS</strong>
+                    </div>
+                </button>
+            </div>
+            <div class="row counselors">
+                <div class=" col-sm-4 col-md-4 d-flex flex-column justify-content-center align-items-center counselor">
+                    <div class="container each_counselor">
+                        <div class="container each_counselor_inside align-items-center">
+                            <img src="assets\img\team\team-1.jpg"><br>
+                            <h5 class="counselor_name">Ashton Kutcher</h5>
+                            <span class="telefone">123-455-688</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 col-md-4 d-flex flex-column justify-content-center align-items-center counselor">
+                    <div class="container each_counselor">
+                        <div class="container each_counselor_inside align-items-center">
+                            <img src="assets\img\team\team-2.jpg" alt=""><br>
+                            <h5 class="counselor_name">Ashton Kutcher</h5>
+                            <span class="telefone">123-455-688</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 col-md-4 d-flex flex-column justify-content-center align-items-center counselor">
+                    <div class="container each_counselor">
+                        <div class="container each_counselor_inside align-items-center">
+                            <img src="assets\img\team\team-3.jpg" alt=""><br>
+                            <h5 class="counselor_name">Ashton Kutcher</h5>
+                            <span class="telefone">123-455-688</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Fim Latest Property-->
+
+    <!-- Início Categorias -->
+    <section class="categorias">
+        <div class="row">
+            <div class="categ apartment col">
+                <div class="descricao">
+                    <h5>APARTMENT</h5>
+                    <span>230 property</span>
+                </div>
+            </div>
+            <div class="categ villa col">
+                <div class="descricao">
+                    <h5>&nbsp&nbsp&nbsp&nbspVILLA&nbsp&nbsp&nbsp&nbsp</h5><br>
+                    <span>230 property</span>
+                </div>
+            </div>
+            <div class="categ house col">
+                <div class="descricao">
+                    <h5>&nbsp&nbspHOUSE&nbsp&nbsp</h5>
+                    <span>230 property</span>
+                </div>
+            </div>
+            <div class="categ restaurent col">
+                <div class="descricao">
+                    <h5>RESTAURENT</h5>
+                    <span>230 property</span>
+                </div>
+            </div>
+            <div class="categ office col">
+                <div class="descricao">
+                    <h5>&nbsp&nbspOFFICE&nbsp&nbsp</h5>
+                    <span>230 property</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Categorias -->
+
+    <!-- Início do Avaluation  -->
+    <section class="avaluation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="tittle">
+                        <h5>What our client says?</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="carousel-avaluation" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-none d-lg-block">
+                                <div class="slide-box">
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>     
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>    
+                            <div class=" d-none d-md-block d-lg-none">
+                                <div class="slide-box">
+                                    <div class="col-md-6">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>           
+                                </div>
+                            </div>
+                            <div class=" d-none d-sm-block d-md-none">
+                                <div class="slide-box">
+                                    <div class="col-sm-12">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>            
+                                </div>
+                            </div>
+                            <div class=" d-block d-sm-none">
+                                <div class="slide-box">
+                                    <div class="col-12">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="carousel-item">
+                            <div class="d-none d-lg-block">
+                                <div class="slide-box">
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class=" d-none d-md-block d-lg-none">
+                                <div class="slide-box">
+                                    <div class="col-md-6">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <div class="col-md-6">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class=" d-none d-sm-block d-md-none">
+                                <div class="slide-box">     
+                                    <div class="col-sm-12">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div class=" d-block d-sm-none">
+                                <div class="slide-box">    
+                                    <div class="col-12">
+                                        <div class="clientcomment">
+                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
+                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
+                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
+                                            </p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name"> Arise Naieh </p>
+                                                <p class="job">Designer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>  
+                        </div>
+                    </div>  
+                    <div class="carousel-avaluation-controls">
+                        <button type="button" href="#carousel-avaluation" data-slide="prev">
+                            <i  class="las la-long-arrow-alt-left"></i>
+                        </button>
+                        <button type="button" href="#carousel-avaluation" data-slide="next">
+                            <i  class="las la-long-arrow-alt-right"></i>
+                        </button>       
+                    </div>  
+                </div>        
+            </div>
+        </div>    
+    </section>
+    <!-- Fim do Avaluation -->
+    
+    <!-- Início Logo Carousel -->
+    <section class="logo-carousel">
+        <div class="container">
+            <div class="row">
+                <div id="carousel-logo" class="carousel" data-flickity='{ "freeScroll": "true", "pageDots": false,
+                    "prevNextButtons": false, "wrapAround": true,"autoPlay": 5000, "groupCells": 1, "cellAlign": "left"}' >
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-2.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-3.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-4.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-5.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-6.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-1.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-2.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-3.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-4.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-5.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-6.png"></div>
+                    <div class="carousel-cell"><img src="assets/img/logo-carousel/lc-1.png"></div>
+                </div>
+            </div>
+        </div>       
+    </section>
+    <!-- Fim Logo Carousel -->
+
+    
+    <!-- Início do Map-->
+    <section class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="info-list">
+                        <div class="info-box">
+                            <div class="info-image">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="info-data">
+                                <h5>Address</h5>
+                                <p>160 Pennsylvana Ave NW, Washington, Castle, PA 16101-5161</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="info-image">
+                                <i class="fa fa-mobile"></i>
+                            </div>
+                            <div class="info-data">
+                                <h5>Phone</h5>
+                                <span>125-711-811 &nbsp&nbsp|&nbsp&nbsp 125-668-886</span>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="info-image">
+                                <i class="fa fa-headphones"></i>
+                            </div>
+                            <div class="info-data">
+                                <h5>Support</h5>
+                                <p> Support.aler@gmail.com </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="google-maps-area">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d735515.5813275519!2d-80.41163541934742!3d43.93644386501528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882a55bbf3de23d7%3A0x3ada5af229b47375!2sMono%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1583262687289!5m2!1sen!2sbd"
+                height="450" frameborder="0" style="border:0;" allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    <!-- Fim do Map -->
+
+    <!-- Início do Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="about">
+                        <div class="logo">
+                            <a href="#header">
+                                <img src="assets/img/f-logo.png">
+                            </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore et dolore magna aliqua ut aliquip ex ea</p>
+                        <div class="msocial">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pinterest-p"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Coluna do HELP -->
+                <div class="col-lg-2 col-sm-6">
+                    <div class="moreinfo">
+                        <h5>Help</h5>
+                        <ul>
+                            <li>Privacy Policy</li>
+                            <li>Contact Support</li>
+                            <li>Knowledgebase</li>
+                            <li>Careers</li>
+                            <li>FAQs</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Coluna de outros links -->
+                <div class="col-lg-2 col-sm-6">
+                    <div class="moreinfo">
+                        <h5>Links</h5>
+                        <ul>
+                            <li>Contact</li>
+                            <li>Create Property</li>
+                            <li>My Properties</li>
+                            <li>Register</li>
+                            <li>Login</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Coluna da Newsletter -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="moreinfo">
+                        <h5>Newsletter</h5>
+                        <p>Deserunt mollit anim id est laborum.</p>
+                        <form action="#" class="subsform">
+                            <input type="text" placeholder="Email">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="copyright">
+                <p> Copyright ©2020 All rights reserved </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Fim do Footer -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/js/flickity.pkgd.min.js"></script>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
