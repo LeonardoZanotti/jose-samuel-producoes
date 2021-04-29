@@ -2,6 +2,7 @@ window.onload = init
 
 function init() {
     initButtons()
+    slider()
 }
 function initButtons() {
     let allButons = document.querySelectorAll('.rent-sale button')

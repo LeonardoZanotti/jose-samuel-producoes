@@ -118,39 +118,6 @@ header.container {
     justify-content: space-between;
 }
 
-header.container .youtube-content {
-    height: 49px;
-    padding-top: 15px;
-    padding-right: 25px;
-
-}
-
-header.container .youtube-content a {
-    border:flex;
-    display: block;
-    background-color:#00c89e;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    height: 49px;
-    width: 149px;
-    font-size: 14px;
-    line-height: 49px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-}
-
-header.container .youtube-content a:hover {
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    background-color: #fff;
-    border: 1px solid var(--verde-primario);
-    color: var(--verde-primario);
-    transition: 0.5s;
-}
-
 #nav-mobile ul {
     list-style: none;
     display: flex;
@@ -579,20 +546,10 @@ div ul li.fp-navbar-li a.fp-navbar-a {
     .fp-spans-right {
         display: none;
     }
- }
 
- @media only screen and (max-width: 767px) {
     footer.footer .moreinfo, footer.footer .about {
-        text-align: center;
-        margin: auto;
-    }
-
-    footer.footer .moreinfo h5 {
-        text-align: center;
-    }
-
-    footer.footer .moreinfo a {
-        margin: auto;
+        background-color: red;
+        width: 100%;
     }
  }
 
@@ -801,13 +758,13 @@ section.avaluation .tittle {
     padding-left: 15px;
 }
 
-section.avaluation .carousel-avaluation{
+section.avaluation #carousel-avaluation{
     width: 100%;
     position: relative;
     padding-left: 15px;
     display: block;
   }
-section.avaluation .carousel-avaluation .slide-box {
+section.avaluation #carousel-avaluation .slide-box {
     display: flex;
     flex-direction: row;
     padding: 30px 0px 0px 0px;
@@ -1085,7 +1042,7 @@ footer .copyright p{
 /* Hovers do footer */
 
 /* Hover do botão subscribe */
-footer.footer .moreinfo a:hover {
+footer.footer .moreinfo a:hover{
     text-decoration: none;
     background-color: #fff;
     color: var(--verde-primario);
@@ -1126,11 +1083,14 @@ footer.footer .about .logo img:hover{
     footer.footer h5{
         padding-bottom: 0px;
     }
-
-    section.latest_property div.each_counselor{
-        height: 100%;
-        margin-top: 30px;
-    } 
+    section#grid-ap .apartamento-box .apartamento-owner span{
+        top: 30px;
+        left:40px;
+    }
+    section#grid-ap .apartamento-box .apartamento-owner #counselor-call{
+        left: 40px;
+        top: 0px;
+    }
 }
 
 @media only screen and (max-width:768px){
@@ -1149,7 +1109,8 @@ footer.footer .about .logo img:hover{
 
     section.latest_property div.each_counselor{
         margin-top: 30px;
-    }    
+    }
+    
 }
 
 @media only screen and (max-width:540px){
@@ -1164,6 +1125,14 @@ footer.footer .about .logo img:hover{
         display:flex;
         flex-direction: column;
         align-items: flex-start;
+    }
+    section#grid-ap .apartamento-box .apartamento-owner span{
+        top: 30px;
+        left:40px;
+    }
+    section#grid-ap .apartamento-box .apartamento-owner #counselor-call{
+        left: 40px;
+        top: 0px;
     }
 }
 

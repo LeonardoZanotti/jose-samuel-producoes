@@ -5,43 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="assets/css/flickity.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <title>Aler</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/js/flickity.pkgd.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <title>José Samuel Produções</title>
 </head>
 
 <body>
-    <header id="header" class="container ">
+    <header id="header" class="container">
         <div class="logo">
-            <img src="assets/img/logo.png" alt="">
+            <img src="assets/img/logo/José Samuel Produções.png" width=100 alt="">
         </div>
 
-        <div class="contact hidden-xs">
-            <div class="contact-box">
-                <i class="material-icons">
-                    mail
-                </i>
-                <span>Aler.support@gmail.com</span>
-            </div>
-            <div class="contact-box">
-                <i class="material-icons">
-                    phone
-                </i>
-                <span> 125-711-811 | 125-668-886</span>
-            </div>
-            <button class="contact-submit">
-                Submit Property
-            </button>
+        <div class="youtube-content">
+            <a href="https://www.youtube.com/channel/UCb8wnvmq1J0GJzjbJFPpKbw" target="_blank" class="site-btn">Subscribe now</a>
         </div>
+
         <div class="menu-mobile d-block d-lg-none" data-toggle="collapse" data-target="#nav-mobile" aria-expanded="false" aria-controls="nav-mobile" >
             <i class="material-icons">
                 menu
@@ -51,32 +46,32 @@
     <div id="nav-mobile" class="container collapse d-lg-none">
         <ul>
             <li>
-                <a href="#">
+                <a href="#home">
                     Home
                 </a>
             </li>
             <li>
-                <a href="#">
-                    Properties
+                <a href="#chooseus">
+                    Choose us
                 </a>
             </li>
             <li>
-                <a href="#">
-                    Agents
+                <a href="#content">
+                    Content
                 </a>
             </li>
             <li>
-                <a href="#">
-                    About
+                <a href="#team">
+                    Team
                 </a>
             </li>
             <li>
-                <a href="#">
-                    Blog
+                <a href="#clients">
+                    Clients
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#contact">
                     Contact
                 </a>
             </li>
@@ -87,32 +82,32 @@
         <div class="container">
             <ul id="nav-menu-ul">
                 <li>
-                    <a href="#">
+                    <a href="#home">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        Properties
+                    <a href="#chooseus">
+                        Choose us
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        Agents
+                    <a href="#content">
+                        Content
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        About
+                    <a href="#team">
+                        Team
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        Blog
+                    <a href="#clients">
+                        Clients
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#contact">
                         Contact
                     </a>
                 </li>
@@ -148,654 +143,13 @@
         </div>
     </nav>
 
+    <!-- Início home -->
+    <section id="home">
+        <div>
 
-    <section id="house-slide" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner carousel-ct">
-
-            <div class="carousel-item active house ">
-                <img class="d-block" src="assets/img/hero/hero-1.jpg" alt="">
-                <div class="house-info-container">
-                    <div class="house-info flex-column flex-md-row">
-                        <div class="left">
-                            <h2 class="house-name">
-                                Balaji Symphony
-                            </h2>
-                            <div class="house-location">
-                                <i  class="lnr lnr-map-marker"></i>
-                                <span>
-                                    Panvel, Navi muambi
-                                </span>
-                            </div>
-                            <div class="house-pricing">
-                                <span class="house-status">For rent</span>
-                                <span class="house-price"><strong>$ 65.0</strong>/month</span>
-                            </div>
-                        </div>
-                        <div class="right">
-                            <div class="row">
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-object-group"></i>
-                                    <span>2,283</span>
-                                </div>
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-bath"></i>
-                                    <span>03</span>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-bed"></i>
-                                    <span>05</span>
-                                </div>
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-car"></i>
-                                    <span>01</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item house">
-                <img class="d-block " src="assets/img/hero/hero-2.jpg" alt="">
-                <div class="house-info-container">
-
-                    <div class="house-info flex-column flex-md-row">
-                        <div class="left">
-                            <h2 class="house-name">
-                                Balaji Symphony
-                            </h2>
-                            <div class="house-location">
-                                <i  class="lnr lnr-map-marker"></i>
-                                <span>
-                                    Panvel, Navi muambi
-                                </span>
-                            </div>
-                            <div class="house-pricing">
-                                <span class="house-status">For rent</span>
-                                <span class="house-price"><strong>$ 65.0</strong>/month</span>
-                            </div>
-                        </div>
-                        <div class="right">
-                            <div class="row">
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-object-group"></i>
-                                    <span>2,283</span>
-                                </div>
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-bath"></i>
-                                    <span>03</span>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-bed"></i>
-                                    <span>05</span>
-                                </div>
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-car"></i>
-                                    <span>01</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item house ">
-                <img class="d-block " src="assets/img/hero/hero-3.jpg" alt="">
-                <div class="house-info-container">
-                    <div class="house-info flex-column flex-md-row">
-                        <div class="left">
-                            <h2 class="house-name">
-                                Balaji Symphony
-                            </h2>
-                            <div class="house-location">
-                                <i  class="lnr lnr-map-marker"></i>
-                                <span>
-                                    Panvel, Navi muambi
-                                </span>
-                            </div>
-                            <div class="house-pricing">
-                                <span class="house-status">For rent</span>
-                                <span class="house-price"><strong>$ 65.0</strong>/month</span>
-                            </div>
-                        </div>
-                        <div class="right">
-                            <div class="row">
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-object-group"></i>
-                                    <span>2,283</span>
-                                </div>
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-bath"></i>
-                                    <span>03</span>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-bed"></i>
-                                    <span>05</span>
-                                </div>
-                                <div class="col-6 house-resource">
-                                    <i class="fa fa-car"></i>
-                                    <span>01</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#house-slide" role="button" data-slide="prev">
-            <i class="material-icons">arrow_back</i>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#house-slide" role="button" data-slide="next">
-            <i class="material-icons">arrow_forward</i>
-            <span class="sr-only">Next</span>
-        </a>
-    </section>
-
-
-    <!-- Início Where would you rather live? -->
-    <section class="where-would">
-        <div class="container">
-            <div class="row justify-content-between container header-of-wwould">
-                <div class="ww col-12 col-sm-7">
-                    <h2 class="h2title">WHERE WOULD YOU RATHER LIVE?</h2>
-                </div>
-                <div class="rent-sale col-12 col-sm-5">
-                    <div class="row botoes">
-                        <button class="button col-12 col-sm-6 rent">FOR RENT</button>
-                        <button class="button col-12 col-sm-6 sale">FOR SALE</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row filtersAndsearch">
-                <div class="row fline container">
-                    <div class="choose-the-city filter col-sm-12 col-md-4">
-                        <button class="button">
-                            <span class="text">Choose the city</span>
-                            <span class="material-icons">keyboard_arrow_down</span>
-                        </button>
-                    </div>
-                    <div class="location filter col-sm-12 col-md-4">
-                        <button class="button">
-                            <span class="text">Location</span>
-                            <span class="material-icons">keyboard_arrow_down</span>
-                        </button>
-                    </div>
-                    <div class="property-status filter col-sm-12 col-md-4">
-                        <button class="button">
-                            <span class="text">Status</span>
-                            <span class="material-icons">keyboard_arrow_down</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="row sline container">
-                    <div class="property-type filter col-sm-12 col-md-4">
-                        <button class="button">
-                            <span class="text">Property Type</span>
-                            <span class="material-icons">keyboard_arrow_down</span>
-                        </button>
-                    </div>
-                    <div class="no-of-bedrooms filter col-sm-12 col-md-4">
-                        <button class="button">
-                            <span class="text">No Of Bedrooms</span>
-                            <span class="material-icons">keyboard_arrow_down</span>
-                        </button>
-                    </div>
-                    <div class="no-of-bathrooms filter col-sm-12 col-md-4">
-                        <button class="button">
-                            <span class="text">No Of Bathrooms</span>
-                            <span class="material-icons">keyboard_arrow_down</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="row tline container">
-                    <div class="size col-sm-12 col-md-4">
-                        <span>Size: [0-2100]sqft</span>
-                        <input type="range" class="size ranged">
-                    </div>
-                    <div class="price col-sm-12 col-md-4">
-                        <span>PRICE: [ 0 - 1400 ] U$
-                        </span>
-                        <input id="price" type="range" class="ranged">
-                    </div>
-                    <div class="search col-sm-12 col-md-4">
-                        <button class="button search ">SEARCH</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row fourthline container">
-                <div class="moptions">
-                    <a href="#"><span class="material-icons">add</span></a>
-                    <span class="moreSO">More Search Options</span>
-                </div>
-            </div>
         </div>
     </section>
-    <!-- Fim Where would you rather live? -->
-
-    <!-- Inicio lista de apartamentos -->
-    <section id="grid-ap">
-        <div class="container">
-            <div class="section-title " id="grid-ap-title">
-                <h2 class="h2title">latest property</h2>
-                <div class="menu-list">
-                    <ul>
-                        <li><a href="#grid-ap">All</a></li>
-                        <li><a href="#grid-ap">Apartment</a></li>
-                        <li><a href="#grid-ap">House</a></li>
-                        <li><a href="#grid-ap">Office</a></li>
-                        <li><a href="#grid-ap">Hotel</a></li>
-                        <li><a href="#grid-ap">Restaurent</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img">
-                        <img src="assets/img/property/property-1.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                            <i class="material-icons">
-                                favorite_border
-                            </i>
-                        </span>
-                    </div>
-                    <h2>Home in Merrick Way</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>3 Middle Winchendon Rd, Rindge, NH 03461</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,823</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-                        
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call"> Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img redrent">
-                        <img src="assets/img/property/property-2.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                        </span>
-                        <i class="material-icons">
-                            favorite_border
-                        </i>
-                    </div>
-                    <h2>Unimont Aurum</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>Gut No.102, Opp. HP Petrol Pump, Karjat</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,283</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call"> Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img redrent">
-                        <img src="assets/img/property/property-3.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                        </span>
-                        <i class="material-icons">
-                            favorite_border
-                        </i>
-                    </div>
-                    <h2>Vrindavan Flora</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>No. 15, 16, 17-1A And 17-2, Rasayani, Rasayani</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,283</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call"> Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img">
-                        <img src="assets/img/property/property-4.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                        </span>
-                        <i class="material-icons">
-                            favorite_border
-                        </i>
-                    </div>
-                    <h2>Shramik Vaibhav</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>12 Pt at Shedung, Panvel, Raigarh, Navi Mumbai</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,283</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call">Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img darkgreenrent">
-                        <img src="assets/img/property/property-5.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                        </span>
-                        <i class="material-icons">
-                            favorite_border
-                        </i>
-                    </div>
-                    <h2>Poddar Wondercity</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>Badlapur East, Beyond Thane</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,283</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call"> Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img">
-                        <img src="assets/img/property/property-6.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                        </span>
-                        <i class="material-icons">
-                            favorite_border
-                        </i>
-                    </div>
-                    <h2> GoldCrest Residency</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>No.7, Sector- 11, Ghansoli, Mumbai, Navi Mumbai</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,283</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call"> Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img redrent">
-                        <img src="assets/img/property/property-7.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                        </span>
-                        <i class="material-icons">
-                            favorite_border
-                        </i>
-                    </div>
-                    <h2>Kangoroo Palace</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>Coala Panfum, Aborkada</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,283</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call"> Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img darkgreenrent">
-                        <img src="assets/img/property/property-8.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                        </span>
-                        <i class="material-icons">
-                            favorite_border
-                        </i>
-                    </div>
-                    <h2>Dracarys Zaldrizes</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>Valiria, Westeros</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,283</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call"> Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-                <div class="col-md-4 apartamento-box">
-                    <div class="apartamento-img">
-                        <img src="assets/img/property/property-9.jpg" alt="">
-                    </div>
-                    <div class="apartamento-price">
-                        <span>
-                            <strong>$ 289.0</strong>/month
-                        </span>
-                        <i class="material-icons">
-                            favorite_border
-                        </i>
-                    </div>
-                    <h2>Space Offices</h2>
-                    <div class="apartamento-location">
-                        <i  class="lnr lnr-map-marker"></i>
-                        <span>No.42, Milk Galaxy, Earth</span>
-                    </div>
-                    <div class="apartamento-recursos">
-                        <div class="recursos-box">
-                            <i class="fa fa-object-group"></i>
-                            <span>2,283</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bath"></i>
-                            <span>03</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-bed"></i>
-                            <span>05</span>
-                        </div>
-                        <div class="recursos-box">
-                            <i class="fa fa-car"></i>
-                            <span>01</span>
-                        </div>
-
-                    </div>
-                    <hr>
-                    <div class="apartamento-owner">
-                        <img src="assets/img/property/posted-by/pb-1.jpg" alt="">
-                        <span id="counselor-call"> Ashton Kutcher</span>
-                        <span>123-455-688</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Fim home -->
 
     <!-- Início Why Choose Us -->
     <section id="chooseus">
@@ -804,10 +158,7 @@
                 <div class="col-md-8">
                     <h5 class="h5tittle">WHY CHOOSE US</h5>
                     <div class="wcu-header">
-                        <p class="pwcu">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an
-                            unknown printer took a gallery of type and scrambled it to make a type specimen book</p>
+                        <p class="pwcu">José Samuel Produções isn't a brand or a company, it's a idea that will change your way to see the world</p>
                     </div>
                     <div class="wcu-area">
                         <div class="row">
@@ -819,8 +170,8 @@
                                 </div>
 
                                 <div class="wcu-text">
-                                    <h3 class="h2whychooseus">Find your future home</h3>
-                                        <p class="pwcu">We help you find a new home by offering a smart real estate</p>
+                                    <h3 class="h2whychooseus">Changes your mind</h3>
+                                        <p class="pwcu">This idea involves the best of the entertainment and knowledge</p>
                                 </div>
                             </div>
 
@@ -831,8 +182,8 @@
                                 </div>
 
                                 <div class="wcu-text">
-                                    <h3 class="h2whychooseus">Buy or rent homes</h3>
-                                        <p class="pwcu">Millions of houses and apartments in your favourite cities</p>
+                                    <h3 class="h2whychooseus">The sky isn't the limit</h3>
+                                        <p class="pwcu">Here, the limits are only the ones you define to yourself</p>
                                 </div>
                             </div>
 
@@ -846,8 +197,8 @@
                                 </div>
 
                                 <div class="wcu-text">
-                                    <h3 class="h2whychooseus">Experienced agents</h3>
-                                        <p class="pwcu">Find an agent who knows your market best</p>
+                                    <h3 class="h2whychooseus">We are here and together</h3>
+                                        <p class="pwcu">José Samuel Produções is reinventing colaboration</p>
                                 </div>
                             </div>
 
@@ -858,8 +209,8 @@
                                 </div>
 
                                 <div class="wcu-text">
-                                    <h3 class="h2whychooseus">List your own property</h3>
-                                        <p class="pwcu">Sign up now and sell or rent your own properties</p>
+                                    <h3 class="h2whychooseus">Globally and abroad</h3>
+                                        <p class="pwcu">It's a mentality that should be spread worldwide, because this is what people need, they just doesn't know it yet</p>
                                 </div>
                             </div>
                         </div>
@@ -870,14 +221,13 @@
     </section>
     <!-- Fim Why Choose Us -->
 
-
-    <!-- Início Feature Property -->
-    <section class="feature-property">
+    <!-- Início Content -->
+    <section class="feature-property" id="content">
         <div id="div-feature-property" class="container-fluid">
             <div class="row m-0">
                 <div id="div-fp-navbar" class="col-lg-4 col-12">
                     <div id="div-fp-navbar-int">
-                        <h5 class="h5tittle">FEATURE PROPERTY</h5>
+                        <h5 class="h5tittle">Content</h5>
 
                         <div id="navbar-feature-property" class="navbar navbar-expand-sm navbar-toggle">
                             <ul id="fp-navbar-ul"
@@ -999,46 +349,40 @@
             </div>
         </div>
     </section>
-    <!-- Fim Feature Property -->
+    <!-- Fim Content -->
 
 
-    <!--Início Latest Property-->
-    <section class="latest_property">
+    <!--Início Team-->
+    <section class="latest_property" id="team">
         <div class="container">
             <div class="section-title">
-                <h2 class="h2title">latest property</h2>
-                <button class="button" href="#">
-                    <div class="all-couns d-flex align-items-center">
-                        <i class="material-icons">person</i>
-                        <strong>ALL COUNSELORS</strong>
-                    </div>
-                </button>
+                <h2 class="h2title">our team</h2>
             </div>
             <div class="row counselors">
                 <div class=" col-sm-4 col-md-4 d-flex flex-column justify-content-center align-items-center counselor">
                     <div class="container each_counselor">
                         <div class="container each_counselor_inside align-items-center">
-                            <img src="assets\img\team\team-1.jpg"><br>
-                            <h5 class="counselor_name">Ashton Kutcher</h5>
-                            <span class="telefone">123-455-688</span>
+                            <img src="assets\img\team\team-1.png"><br>
+                            <h5 class="counselor_name">Felipe Gonçalves</h5>
+                            <span class="telefone">+55 (41) 99778-5846</span>
                         </div>
                     </div>
                 </div>
                 <div class=" col-sm-4 col-md-4 d-flex flex-column justify-content-center align-items-center counselor">
                     <div class="container each_counselor">
                         <div class="container each_counselor_inside align-items-center">
-                            <img src="assets\img\team\team-2.jpg" alt=""><br>
-                            <h5 class="counselor_name">Ashton Kutcher</h5>
-                            <span class="telefone">123-455-688</span>
+                            <img src="assets\img\team\team-2.png" alt=""><br>
+                            <h5 class="counselor_name">Leonardo Zanotti</h5>
+                            <span class="telefone">+55 (41) 99564-9547</span>
                         </div>
                     </div>
                 </div>
                 <div class=" col-sm-4 col-md-4 d-flex flex-column justify-content-center align-items-center counselor">
                     <div class="container each_counselor">
                         <div class="container each_counselor_inside align-items-center">
-                            <img src="assets\img\team\team-3.jpg" alt=""><br>
-                            <h5 class="counselor_name">Ashton Kutcher</h5>
-                            <span class="telefone">123-455-688</span>
+                            <img src="assets\img\team\team-3.png" alt=""><br>
+                            <h5 class="counselor_name">Rodrigo Janiski</h5>
+                            <span class="telefone">+55 (41) 98495-8214</span>
                         </div>
                     </div>
                 </div>
@@ -1046,9 +390,9 @@
             </div>
         </div>
     </section>
-    <!--Fim Latest Property-->
+    <!-- Fim Team -->
 
-    <!-- Início Categorias -->
+    <!-- Início photos -->
     <section class="categorias">
         <div class="row">
             <div class="categ apartment col">
@@ -1083,11 +427,11 @@
             </div>
         </div>
     </section>
-    <!-- Fim Categorias -->
+    <!-- Fim photos -->
 
     <!-- Início do Avaluation  -->
-    <section class="avaluation">
-        <div class="container">
+    <section class="avaluation" id="clients">
+        <div class="container" style="min-height: 350px">
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div class="tittle">
@@ -1095,50 +439,45 @@
                     </div>
                 </div>
             </div>
+
+            <!-- desktop -->
             <div class="row">
-                <div id="carousel-avaluation" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
-                    <div class="carousel-inner">
+                <div id="carousel-avaluation" class="carousel-avaluation d-none d-lg-block carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+                    <div class="carousel-inner d-none d-lg-block">
                         <div class="carousel-item active">
                             <div class="d-none d-lg-block">
                                 <div class="slide-box">
                                     <div class="col-lg-6">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>First</p>
                                         </div>
                                         <div class=clientinfo>
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                                <img src="assets/img/testimonial-author/matheus.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Matheus Lucas</p>
+                                                <p class="job">Brawlhalla pro player</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                    </div>     
+                                    </div>        
                                     <div class="col-lg-6">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>Arrivo qui da FB. Vado a condividere questo fantastico video con tutti i miei amici. Complimenti a te.</p>
                                         </div>
                                         <div class="clientinfo">
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                                <img src="assets/img/testimonial-author/gringo1.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">vulcanswork</p>
+                                                <p class="job">Youtuber</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
@@ -1150,23 +489,425 @@
                                         </div>
                                     </div>        
                                 </div>
-                            </div>    
-                            <div class=" d-none d-md-block d-lg-none">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-none d-lg-block">
                                 <div class="slide-box">
-                                    <div class="col-md-6">
+                                    <div class="col-lg-6">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>nice one</p>
                                         </div>
                                         <div class=clientinfo>
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                                <img src="assets/img/testimonial-author/gringo2.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Bella Meer</p>
+                                                <p class="job">Singer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>Muito Bom!!!!</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/coffee.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Coffee Talks</p>
+                                                <p class="job">Social Justice Warrior</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-none d-lg-block">
+                                <div class="slide-box">
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>Ó os cara encoxando o maluco dormindo pqp</p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/cr7.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Goiabão Games</p>
+                                                <p class="job">Atlético Paranaense soccer player</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>Curta se vc chorou 😢</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/marx.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Mateus Marques</p>
+                                                <p class="job">Motoboy</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-none d-lg-block">
+                                <div class="slide-box">
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>José Samuel Produções!! Me poupe!!</p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/marion.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Marion Foerster</p>
+                                                <p class="job">Doctor in Zoology and Teacher at UFPR</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>Foda</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/kulka.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Gabriel P. Kulka</p>
+                                                <p class="job">Engenieering student at UFPR</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="d-none d-lg-block">
+                                <div class="slide-box">
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>Pequenas empresas grandes mamadas</p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/rodrigo.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Rodrigo J Gavazzoni</p>
+                                                <p class="job">CMO at José Samuel Produções</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>
+                                               KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+                                               KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+                                               KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+                                               KKKKKKKKKKK</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/sato.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Fernando Sato</p>
+                                                <p class="job">Engenieering student at UFPR</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-none d-lg-block">
+                                <div class="slide-box">
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>Eu nunca assisti um vídeo de lol n sei oq isso me recomendou, todavia n me arrependo</p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/black.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Lucas Silva</p>
+                                                <p class="job">Unknown</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>Muito bom! Ese cara é muito brabo, passou a mensagem pros talarico verme. Pokas</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/ber.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Bernardo Godoy</p>
+                                                <p class="job">Engenieering student at Unicamp</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-none d-lg-block">
+                                <div class="slide-box">
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>KKKKKKKKKKKKKKKKKKKKKKKK
+                                                VSF, PODE TIRAR A PORRA DO MEU INSTA DAI</p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/zek.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">José Samuel</p>
+                                                <p class="job">Friend of the CEO of José Samuel Produções</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>a nata do you tube</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/felipe.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Felipe Rocha</p>
+                                                <p class="job">COO at José Samuel Produções</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-avaluation-controls">
+                        <button type="button" href="#carousel-avaluation" data-slide="prev">
+                            <i  class="las la-long-arrow-alt-left"></i>
+                        </button>
+                        <button type="button" href="#carousel-avaluation" data-slide="next">
+                            <i  class="las la-long-arrow-alt-right"></i>
+                        </button>       
+                    </div> 
+                </div>
+            </div>
+            
+            <!-- mobile -->
+            <div class="row">
+                <div id="carousel-avaluation-mobile" class="carousel-avaluation d-block d-lg-none carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+                    <div class="carousel-inner d-block d-lg-none">
+                        <div class="carousel-item active">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">
+                                    <div class="col-12">
+                                        <div class="clientcomment">
+                                            <p>First</p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/matheus.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Matheus Lucas</p>
+                                                <p class="job">Brawlhalla pro player</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">    
+                                    <div class="col-lg-6">
+                                        <div class="clientcomment">
+                                            <p>Arrivo qui da FB. Vado a condividere questo fantastico video con tutti i miei amici. Complimenti a te.</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/gringo1.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">vulcanswork</p>
+                                                <p class="job">Youtuber</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">
+                                    <div class="col-12">
+                                        <div class="clientcomment">
+                                            <p>nice one</p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/gringo2.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Bella Meer</p>
+                                                <p class="job">Singer</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">       
+                                    <div class="col-12">
+                                        <div class="clientcomment">
+                                            <p>Muito Bom!!!!</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/coffee.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Coffee Talks</p>
+                                                <p class="job">Social Justice Warrior</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">
+                                    <div class="col-12">
+                                        <div class="clientcomment">
+                                            <p>Ó os cara encoxando o maluco dormindo pqp</p>
+                                        </div>
+                                        <div class=clientinfo>
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/cr7.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Goiabão Games</p>
+                                                <p class="job">Atlético Paranaense soccer player</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
@@ -1177,20 +918,23 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">       
+                                    <div class="col-12">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>Curta se vc chorou 😢</p>
                                         </div>
                                         <div class="clientinfo">
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                                <img src="assets/img/testimonial-author/marx.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Mateus Marques</p>
+                                                <p class="job">Motoboy</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
@@ -1200,107 +944,101 @@
                                                 <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                    </div>           
+                                    </div>        
                                 </div>
                             </div>
-                            <div class=" d-none d-sm-block d-md-none">
-                                <div class="slide-box">
-                                    <div class="col-sm-12">
-                                        <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
-                                        </div>
-                                        <div class=clientinfo>
-                                            <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
-                                            </div>
-                                            <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
-                                            </div>    
-                                            <div class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>            
-                                </div>
-                            </div>
-                            <div class=" d-block d-sm-none">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
                                 <div class="slide-box">
                                     <div class="col-12">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>José Samuel Produções!! Me poupe!!</p>
                                         </div>
                                         <div class=clientinfo>
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                                <img src="assets/img/testimonial-author/marion.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Marion Foerster</p>
+                                                <p class="job">Doctor in Zoology and Teacher at UFPR</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                    </div>        
+                                    </div>
                                 </div>
                             </div>
-                        </div>   
+                        </div>
                         <div class="carousel-item">
-                            <div class="d-none d-lg-block">
-                                <div class="slide-box">
-                                    <div class="col-lg-6">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">        
+                                    <div class="col-12">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>Foda</p>
+                                        </div>
+                                        <div class="clientinfo">
+                                            <div class="clientimage">
+                                                <img src="assets/img/testimonial-author/kulka.jpg" >
+                                            </div>
+                                            <div class="clientdescription">
+                                                <p class="name">Gabriel P. Kulka</p>
+                                                <p class="job">Engenieering student at UFPR</p>
+                                            </div>    
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">
+                                    <div class="col-12">
+                                        <div class="clientcomment">
+                                            <p>Pequenas empresas grandes mamadas</p>
                                         </div>
                                         <div class=clientinfo>
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                                <img src="assets/img/testimonial-author/rodrigo.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Rodrigo J Gavazzoni</p>
+                                                <p class="job">CMO at José Samuel Produções</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                    </div>        
-                                    <div class="col-lg-6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">        
+                                    <div class="col-12">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>
+                                                KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+                                                KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+                                                KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+                                                KKKKKKKKKKKKKKKKKKKK</p>
                                         </div>
                                         <div class="clientinfo">
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                                <img src="assets/img/testimonial-author/sato.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Fernando Sato</p>
+                                                <p class="job">Engenieering student at UFPR</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
@@ -1313,46 +1051,47 @@
                                     </div>        
                                 </div>
                             </div>
-                            <div class=" d-none d-md-block d-lg-none">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
                                 <div class="slide-box">
-                                    <div class="col-md-6">
+                                    <div class="col-12">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                                seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                                suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>Eu nunca assisti um vídeo de lol n sei oq isso me recomendou, todavia n me arrependo</p>
                                         </div>
                                         <div class=clientinfo>
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                                <img src="assets/img/testimonial-author/black.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Lucas Silva</p>
+                                                <p class="job">Unknown</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                    </div>  
-                                    <div class="col-md-6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">        
+                                    <div class="col-12">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>Muito bom! Ese cara é muito brabo, passou a mensagem pros talarico verme. Pokas</p>
                                         </div>
                                         <div class="clientinfo">
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-2.jpg" >
+                                                <img src="assets/img/testimonial-author/ber.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Bernardo Godoy</p>
+                                                <p class="job">Engenieering student at Unicamp</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
@@ -1362,53 +1101,49 @@
                                                 <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                    </div>        
+                                    </div>
                                 </div>
                             </div>
-                            <div class=" d-none d-sm-block d-md-none">
-                                <div class="slide-box">     
-                                    <div class="col-sm-12">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
+                                <div class="slide-box">
+                                    <div class="col-12">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>KKKKKKKKKKKKKKKKKKKKKKKK
+                                                VSF, PODE TIRAR A PORRA DO MEU INSTA DAI</p>
                                         </div>
-                                        <div class="clientinfo">
+                                        <div class=clientinfo>
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                                <img src="assets/img/testimonial-author/zek.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">José Samuel</p>
+                                                <p class="job">Friend of the CEO of José Samuel Produções</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                    </div>        
+                                    </div>
                                 </div>
                             </div>
-                            <div class=" d-block d-sm-none">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block d-lg-none">
                                 <div class="slide-box">    
                                     <div class="col-12">
                                         <div class="clientcomment">
-                                            <p> Lorem ipsum dolor amet, consectetur adipiscing elit,
-                                            seiusmod tempor incididunt ut labore magna aliqua.Quis ipsum
-                                            suspendisse ultrices gravida accumsan lacus vel facilisis.
-                                            </p>
+                                            <p>a nata do you tube</p>
                                         </div>
                                         <div class="clientinfo">
                                             <div class="clientimage">
-                                                <img src="assets/img/testimonial-author/ta-1.jpg" >
+                                                <img src="assets/img/testimonial-author/felipe.jpg" >
                                             </div>
                                             <div class="clientdescription">
-                                                <p class="name"> Arise Naieh </p>
-                                                <p class="job">Designer</p>
+                                                <p class="name">Felipe Rocha</p>
+                                                <p class="job">COO at José Samuel Produções</p>
                                             </div>    
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
@@ -1420,14 +1155,14 @@
                                         </div>
                                     </div>        
                                 </div>
-                            </div>  
+                            </div>
                         </div>
                     </div>  
                     <div class="carousel-avaluation-controls">
-                        <button type="button" href="#carousel-avaluation" data-slide="prev">
+                        <button type="button" href="#carousel-avaluation-mobile" data-slide="prev">
                             <i  class="las la-long-arrow-alt-left"></i>
                         </button>
-                        <button type="button" href="#carousel-avaluation" data-slide="next">
+                        <button type="button" href="#carousel-avaluation-mobile" data-slide="next">
                             <i  class="las la-long-arrow-alt-right"></i>
                         </button>       
                     </div>  
@@ -1463,7 +1198,7 @@
 
     
     <!-- Início do Map-->
-    <section class="map">
+    <section class="map" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -1474,7 +1209,7 @@
                             </div>
                             <div class="info-data">
                                 <h5>Address</h5>
-                                <p>160 Pennsylvana Ave NW, Washington, Castle, PA 16101-5161</p>
+                                <p>Rua Alberico Flores Bueno, 2325 - Bairro Alto, Curitiba - PR, 82820-070</p>
                             </div>
                         </div>
                         <div class="info-box">
@@ -1483,16 +1218,16 @@
                             </div>
                             <div class="info-data">
                                 <h5>Phone</h5>
-                                <span>125-711-811 &nbsp&nbsp|&nbsp&nbsp 125-668-886</span>
+                                <span>+55 (41) 99564-9547</span>
                             </div>
                         </div>
                         <div class="info-box">
                             <div class="info-image">
-                                <i class="fa fa-headphones"></i>
+                                <i class="fa fa-envelope"></i>
                             </div>
                             <div class="info-data">
-                                <h5>Support</h5>
-                                <p> Support.aler@gmail.com </p>
+                                <h5>E-mail</h5>
+                                <p>alfassaurozeca@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -1501,9 +1236,13 @@
         </div>
         <div class="google-maps-area">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d735515.5813275519!2d-80.41163541934742!3d43.93644386501528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882a55bbf3de23d7%3A0x3ada5af229b47375!2sMono%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1583262687289!5m2!1sen!2sbd"
-                height="450" frameborder="0" style="border:0;" allowfullscreen>
-            </iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.769032650761!2d-49.20308414889047!3d-25.412540783717006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcef622e74e9ef%3A0x139d38be3c9400b2!2sRua%20Alberico%20Flores%20Bueno%2C%202325%20-%20Bairro%20Alto%2C%20Curitiba%20-%20PR%2C%2082820-070!5e0!3m2!1sen!2sbr!4v1619662708862!5m2!1sen!2sbr"
+                height="450"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy"
+                frameborder="0"
+            ></iframe>
         </div>
     </section>
     <!-- Fim do Map -->
@@ -1512,16 +1251,14 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6">
                     <div class="about">
                         <div class="logo">
                             <a href="#header">
-                                <img src="assets/img/f-logo.png">
+                                <img src="assets/img/logo/José Samuel Produções.png" width=200>
                             </a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut
-                            labore et dolore magna aliqua ut aliquip ex ea</p>
+                        <p>José Samuel Produções, be part of this history!</p>
                         <div class="msocial">
                             <a href="#">
                                 <i class="fa fa-facebook"></i>
@@ -1541,41 +1278,12 @@
                         </div>
                     </div>
                 </div>
-                <!-- Coluna do HELP -->
-                <div class="col-lg-2 col-sm-6">
-                    <div class="moreinfo">
-                        <h5>Help</h5>
-                        <ul>
-                            <li>Privacy Policy</li>
-                            <li>Contact Support</li>
-                            <li>Knowledgebase</li>
-                            <li>Careers</li>
-                            <li>FAQs</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Coluna de outros links -->
-                <div class="col-lg-2 col-sm-6">
-                    <div class="moreinfo">
-                        <h5>Links</h5>
-                        <ul>
-                            <li>Contact</li>
-                            <li>Create Property</li>
-                            <li>My Properties</li>
-                            <li>Register</li>
-                            <li>Login</li>
-                        </ul>
-                    </div>
-                </div>
                 <!-- Coluna da Newsletter -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-md-6">
                     <div class="moreinfo">
-                        <h5>Newsletter</h5>
-                        <p>Deserunt mollit anim id est laborum.</p>
-                        <form action="#" class="subsform">
-                            <input type="text" placeholder="Email">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
+                        <h5>Youtube content</h5>
+                        <p>Don't lose any new video released by us!</p>
+                        <a href="https://www.youtube.com/channel/UCb8wnvmq1J0GJzjbJFPpKbw" target="_blank" class="site-btn">Subscribe now</a>
                     </div>
                 </div>
             </div>
@@ -1586,22 +1294,6 @@
         </div>
     </footer>
     <!-- Fim do Footer -->
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="assets/js/flickity.pkgd.min.js"></script>
-    
-    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
