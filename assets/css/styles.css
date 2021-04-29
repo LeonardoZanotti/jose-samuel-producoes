@@ -236,6 +236,7 @@ nav .container .social-media .social-icon img {
 }
 
 .menu-mobile {
+    align-self: center;
     display: none;
     justify-content: center;
     align-items: center;
@@ -699,7 +700,10 @@ section.latest_property div.counselor{
     padding-left: 15px;
     display: flex;
 }
-
+section.latest_property p.role{
+    font-size: 15px;
+    color: #333333;
+}
 section.latest_property span.telefone{
     font-size: 14px;
     font-weight: bold;
