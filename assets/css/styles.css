@@ -739,22 +739,24 @@ section.categorias div.row div.categ{
     align-items: center;
     max-width: 374px;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.categorias div.row div.apartment{
-    background-image: url("../img/categories/cat-1.jpg");
+    background-image: url("../img/categories/zeca-1.png");
 }
 section.categorias div.row div.villa{
-    background-image: url("../img/categories/cat-2.jpg");
+    background-image: url("../img/categories/zeca-2.png");
 }
 section.categorias div.row div.house{
-    background-image: url("../img/categories/cat-3.jpg");
+    background-image: url("../img/categories/zeca-3.png");
 }
 section.categorias div.row div.restaurent{
-    background-image: url("../img/categories/cat-4.jpg");
+    background-image: url("../img/categories/zeca-4.png");
 }
 section.categorias div.row div.office{
-    background-image: url("../img/categories/cat-5.jpg");
+    background-image: url("../img/categories/zeca-5.png");
 }
 
 section.categorias div.row div.categ div.descricao{
@@ -767,21 +769,20 @@ section.categorias div.row div.categ div.descricao{
     justify-content: center;
 }
 
-section.categorias div.row div.categ div.descricao h5{
+section.categorias div.row div.categ div.descricao h5 {
     margin: unset;
     font-weight: bold;
+    text-align: center;
+    width: 100%;
 }
 
-section.categorias div.row div.categ div.descricao span{
-    margin: unset;
+section.categorias div.row div.categ div.descricao span {
+    text-align: center;
     font-weight: bold;
+    width: 100%;
     color: var(--verde-primario);
 }
 /* Fim Categorias */
-
-
-
-
 
 /* Avaluation */
 
@@ -789,7 +790,10 @@ section.categorias div.row div.categ div.descricao span{
 section.avaluation{
     width: 100%;
     padding-top: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+}
+section.avaluation .carousel-height-min {
+    min-height: 400px;
 }
 /* Título da seção */
 section.avaluation .tittle h5 {
@@ -821,6 +825,7 @@ section.avaluation .carousel-avaluation .slide-box {
 
 /* Comentário do CLiente */
 section.avaluation .carousel .carousel-inner .clientcomment {
+    overflow-wrap: break-word;
     max-width:540px;
     max-height: auto;
     box-shadow: 0px 3px 15px 3px #f0f0f0;
@@ -912,7 +917,6 @@ section.avaluation .carousel-avaluation-controls button:hover {
     box-shadow: inset 0px 0px 1px 45px rgba(255, 255, 255, 0.3);   
 }
 /* Fim do Avaluation*/
-
 
 
 /* Início do Logo Carousel */
@@ -1142,6 +1146,10 @@ footer.footer .about .logo img:hover{
          display:none !important;
      }
   
+    section.avaluation .carousel-height-min {
+        min-height: 500px;
+    }
+
      .section-title {
          flex-direction: column;
          align-items: flex-start;
