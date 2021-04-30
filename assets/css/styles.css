@@ -375,51 +375,63 @@ li.fp-navbar-li {
 }
 
 div ul li.fp-navbar-li a.fp-navbar-a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     display: block;
     color: #bbbbbb;
     font-size: 15px;
     text-decoration: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 15px 0px;
+    
 }
 
 #a-noborder {
     border-bottom: none;
 }
 
-#button-feature-property {
+.button-feature-property {
+    margin-top: 40px;
+    padding: 15px 0px;
+    height: 50px;
+}
+
+#a-feature-property {
+    display: block;
+    width: 100%;
     background-color: #ffffff;
     color: var(--verde-primario);
-    width: 100%;
-    border: none;
+    text-decoration: none;
+    text-align: center;
     font-weight: 700;
     padding: 15px;
-    margin-top: 40px;
     transition: 0.2s;
 }
 
-#button-feature-property:hover {
+#a-feature-property:hover {
     border:none;
     background-color:#00c89e;
     color: #ffffff;
     outline: none;
 }
 
-#div-fp-img {
-    display: flex;
-    position: relative;
-    max-height: 520px;
-    height: 100%;
-    max-width: 780px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-}
-
 #div-fp-carousel {
     display: block;
     position: relative;
     width: 100%;
+}
+
+#div-fp-carousel  #fp-carousel .fp-carousel-item {
+    height: 520px;
+    width: 780px;
+}
+
+#div-fp-carousel  #fp-carousel .fp-carousel-item iframe {
+    max-height: 520px;
+    max-width: 780px;
+    width: 100%;
+    height: 100%;
 }
 
 .fp-img-carousel {
@@ -435,118 +447,9 @@ div ul li.fp-navbar-li a.fp-navbar-a {
     transition: 0.3s;
 }
 
-.fp-carousel-spans {
-    display: flex;
-    position: absolute;
-    float: none;
-    width: 100%;
-    bottom: 30px;
-    padding: 0px 5%;
-}
-
-.fp-spans-left {
-    display: block;
-    width: 100%;
-}
-
-.fp-title {
-    display: block;
-    color: white;
-    font-weight: 700;
-    font-size: 18px;
-    margin: 0px;
-}
-
-.fp-location {
-    display: block;
-    font-size: 15px;
-    color: #bbbbbb;
-    width: 350px;
-    margin-bottom: 15px;
-}
-
-.fp-location-icon {
-    display: inline-block;
-    width: 15px;
-    vertical-align: middle;
-    padding: 0px;
-}
-
-.fp-location-p {
-    display: inline-block;
-    width: 335px;
-    vertical-align: middle;
-}
-
-.fp-price {
-    display: block;
-    width: 350px;
-}
-
-.fp-forrent {
-    display: inline-block;
-    background-color: #34ab04;
-    color: white;
-    font-weight: 700;
-    font-size: 13px;
-    width: 84px;
-    padding: 3px 7px;
-}
-
-.fp-value {
-    display: inline-block;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    margin-left: 10px;
-    vertical-align: middle;
-}
-
-.fp-month {
-    color: #999999;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.fp-spans-right {
-    display: inline-block;
-    max-width: 200px;
-    width: 100%;
-    color: #999999;
-    margin-left: auto;
-    margin-top: auto;
-    border-left: solid 1px rgba(255, 255, 255, 0.2);
-}
-
-.fp-spans-icons {
-    display: inline-block;
-    width: 80px;
-    height: 20px;
-    font-size: 14px;
-    margin-left: 17px;
-}
-
-.fp-icons {
-    display: inline-block;
-    width: 10px;
-    margin: 12px;
-    padding: 12px;
-}
-
-.fp-spans-numbers {
-    display: inline-block;
-    width: 20px;
-    color: #ffffff;
-    font-weight: 700;
-}
-
 @media screen and (min-width: 992px) and (max-width: 1141px) {
     ul#fp-navbar-ul {
         margin-top: 5px;
-    }
-
-    #button-feature-property {
-        margin-top: 30px;
     }
 }
 
@@ -562,23 +465,11 @@ div ul li.fp-navbar-li a.fp-navbar-a {
         margin: auto;
         width: 100%;
     }
-
-    #button-feature-property {
-        margin-top: 45px;
-    }
 }
 
 @media only screen and (max-width:771px) {
     .fp-img-carousel {
         min-height: 0px;
-    }
-
-    .fp-price {
-        margin-bottom: 10px;
-    }
-
-    .fp-spans-right {
-        display: none;
     }
  }
 
@@ -598,27 +489,6 @@ div ul li.fp-navbar-li a.fp-navbar-a {
  }
 
  @media screen and (max-width: 465px) {
-    .fp-carousel-spans {
-        bottom: 0px;
-        padding: 0px 2%;
-    }
-
-    .fp-location {
-        display: inline-block;
-        margin: auto;
-        margin-bottom: 5px;
-        color: white;
-    }
-
-    .fp-location-icon {
-        width: 5%;
-        margin-right: 2px;
-    }
-    
-    .fp-location-p {
-        width: 90%;
-    }
-    
     #div-fp-carousel a {
         margin: 5px 5px auto;
     }
@@ -628,14 +498,10 @@ div ul li.fp-navbar-li a.fp-navbar-a {
     ul#fp-navbar-ul {
         margin-top: 5px;
     }
-
-    #button-feature-property {
-        margin-top: 30px;
-    }
 }
 
 @media screen and (max-width: 297px) {
-    #button-feature-property {
+    #a-feature-property {
         padding: 10px;
     }
 }
