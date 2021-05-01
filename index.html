@@ -28,19 +28,30 @@
 </head>
 
 <body>
+    <section id="title" class="d-flex justify-content-between d-lg-none">
+        <div class="logo d-flex d-lg-none m-2">
+            <img src="assets/img/logo/José Samuel Produções.png" alt="">
+        </div>
+        <div class="header-title d-flex d-lg-none">
+            <h1>José Samuel Produções</h1>
+        </div>
+        <div class="menu-mobile d-block d-lg-none m-2" data-toggle="collapse" data-target="#nav-mobile" aria-expanded="false" aria-controls="nav-mobile" >
+            <i class="material-icons">
+                menu
+            </i>
+        </div>
+    </section>
     <header id="header" class="container">
-        <div class="logo">
+        <div class="logo d-none d-lg-flex">
             <img src="assets/img/logo/José Samuel Produções.png" width=100 alt="">
+        </div>
+
+        <div class="header-title d-none d-lg-flex">
+            <h1>José Samuel Produções</h1>
         </div>
 
         <div class="youtube-content">
             <a href="https://www.youtube.com/channel/UCb8wnvmq1J0GJzjbJFPpKbw?sub_confirmation=1" target="_blank" class="site-btn">Subscribe now</a>
-        </div>
-
-        <div class="menu-mobile d-block d-lg-none" data-toggle="collapse" data-target="#nav-mobile" aria-expanded="false" aria-controls="nav-mobile" >
-            <i class="material-icons">
-                menu
-            </i>
         </div>
     </header>
     <div id="nav-mobile" class="container collapse d-lg-none">
@@ -144,16 +155,31 @@
 
     <!-- Início home -->
     <section id="home">
-        <div>
-            <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/QA7n6Z9ftBs"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-            ></iframe>
+        <div class="about-us-card">
+            <h5 id="title" class="h5tittle">ABOUT US</h5>
+            <div class="about_us">
+                <div class="description_1">
+                    <p id="description_1">
+                            In a personal way, we consider that the Internet has revolutionized the forms of communication and learning (now we can access any information in just a few clicks). José Samuel Produções is no exception. The great impact of his informational works, such as "Interview with professional fairs of 2018" and "With love, Van Gogh" of 2019, show how José Samuel Produções is an almost indispensable tool for the modern human being, to the point of some authors comparing it with the Gutenberg revolution. Let us also not forget the immense speed that his works show in communication, where we find relevant information in seconds (unlike traditional systems in which we would spend a lot of time in the search for information in the library), as well as allowing for an easier interaction (for example, with platforms LMS - Learning Management System - and SOPA - Orthodox System for Audiovisual Production).
+                    </p>
+                </div>
+                <div class="description_2">
+                    <p id="description_2">
+                            In the socio-economic realm, man does not live only in knowledge, and it is for this reason that José Samuel Produções also brings in his works the humorous cultural aspect, which does not contribute in any way to the alienation process initially studied by Hegel (1770- 1830). Works like "[AMV] The boy and the beast (My Demons)" remind us to make brief rests so that we don't succumb to the everyday sadness of modern life. Finally, it is worth mentioning his outstanding work, which consumed a great and valuable period of time from the author for his total production, "Evolution of primates - Humans Shippuden", which he showed to the most lay people, who had not yet understood his genius, how interesting and enriching it can be to be part of that story. I hope I have opened your eyes to the greatness of José Samuel Produções.
+                    </p>
+                    <div id="video">
+                        <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/QA7n6Z9ftBs"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Fim home -->
