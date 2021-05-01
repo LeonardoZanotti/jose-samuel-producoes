@@ -416,22 +416,29 @@ div ul li.fp-navbar-li a.fp-navbar-a {
     outline: none;
 }
 
+#div-fp-img {
+    padding: 0;
+}
+
 #div-fp-carousel {
-    display: block;
+    display: flex;
     position: relative;
     width: 100%;
+    height: 100%;
 }
 
 #div-fp-carousel  #fp-carousel .fp-carousel-item {
-    height: 520px;
-    width: 780px;
+    max-height: 520px;
+    max-width: 780px;
+    height: 100%;
+    width: 100%;
 }
 
 #div-fp-carousel  #fp-carousel .fp-carousel-item iframe {
     max-height: 520px;
     max-width: 780px;
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 .fp-img-carousel {
@@ -473,7 +480,7 @@ div ul li.fp-navbar-li a.fp-navbar-a {
     }
  }
 
- @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     footer.footer .moreinfo, footer.footer .about {
         text-align: center;
         margin: auto;
@@ -485,12 +492,6 @@ div ul li.fp-navbar-li a.fp-navbar-a {
 
     footer.footer .moreinfo a {
         margin: auto;
-    }
- }
-
- @media screen and (max-width: 465px) {
-    #div-fp-carousel a {
-        margin: 5px 5px auto;
     }
 }
 
@@ -1004,7 +1005,18 @@ footer.footer .about .logo img:hover{
     section.latest_property div.each_counselor{
         height: 100%;
         margin-top: 30px;
-    } 
+    }
+
+    #div-fp-carousel  #fp-carousel .fp-carousel-item {
+        position: relative;
+        padding-bottom: 56.25%; 
+    }
+    
+    #div-fp-carousel  #fp-carousel .fp-carousel-item iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media only screen and (max-width:768px){
