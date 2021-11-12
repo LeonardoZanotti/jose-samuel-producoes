@@ -437,7 +437,7 @@ section.feature-property #div-feature-property .buttons-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-block: 20px;
 }
 
 section.feature-property #div-feature-property .buttons-header .content-button {
@@ -552,32 +552,41 @@ div ul li.fp-navbar-li a.fp-navbar-a {
   padding: 0;
 }
 
-#div-fp-carousel {
+.div-fp-carousel {
   display: flex;
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-#div-fp-carousel #fp-carousel .fp-carousel-item {
+.div-fp-carousel .fp-carousel .fp-carousel-item {
   max-height: 520px;
   max-width: 780px;
   height: 100%;
   width: 100%;
 }
 
-#div-fp-carousel #fp-carousel .fp-carousel-item iframe {
+#div-fp-carousel-poetry #fp-carousel-poetry .fp-carousel-item {
+  text-align: center;
+  height: 520px;
+}
+
+#div-fp-carousel-video #fp-carousel-video .fp-carousel-item iframe {
   max-height: 520px;
   max-width: 780px;
   height: 100%;
   width: 100%;
 }
 
-.fp-img-carousel {
-  min-height: 520px;
+#div-fp-carousel-poetry #fp-carousel-poetry .fp-carousel-item img {
+  max-width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  width: 100%;
+  height: 520px;
 }
 
-#div-fp-carousel a {
+.div-fp-carousel a {
   background-color: black;
   border-radius: 100%;
   width: 40px;
@@ -638,12 +647,6 @@ div ul li.fp-navbar-li a.fp-navbar-a {
   #div-fp-img {
     margin: auto;
     width: 100%;
-  }
-}
-
-@media only screen and (max-width: 771px) {
-  .fp-img-carousel {
-    min-height: 0px;
   }
 }
 
@@ -1206,7 +1209,7 @@ footer.footer .about .logo img:hover {
     margin-top: 30px;
   }
 
-  #div-fp-carousel #fp-carousel .fp-carousel-item {
+  .div-fp-carousel .fp-carousel .fp-carousel-item {
     position: relative;
     padding-bottom: 56.25%;
     max-width: unset;
@@ -1215,7 +1218,7 @@ footer.footer .about .logo img:hover {
     height: 100%;
   }
 
-  #div-fp-carousel #fp-carousel .fp-carousel-item iframe {
+  #div-fp-carousel-video #fp-carousel-video .fp-carousel-item iframe {
     position: absolute;
     max-width: unset;
     max-height: unset;
