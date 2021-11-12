@@ -141,7 +141,7 @@
                     </a>
                 </div>
                 <div class="social-icon">
-                    <a href="https://www.instagram.com/lil.picolino/" target="_blank">
+                    <a href="https://www.instagram.com/empresa_jsp/" target="_blank">
                         <img src="assets/img/social-media/instagram.png" alt="">
                     </a>
                 </div>
@@ -273,11 +273,126 @@
     <!-- Início Content -->
     <section class="feature-property" id="content">
         <div id="div-feature-property" class="container-fluid">
-            <div class="row m-0">
+            <div class="buttons-header">
+                <button class="content-button" onClick="changeContent('videos')">Videos</button>
+                <button class="content-button" onClick="changeContent('poetry')">Poetry</button>
+            </div>
+            <div class="row videos-content m-0">
                 <div id="div-fp-navbar" class="col-lg-4 col-12">
                     <div id="div-fp-navbar-int">
-                        <h5 class="h5tittle">Content</h5>
+                        <h5 class="h5tittle">Videos</h5>
+                        <div id="navbar-feature-property" class="navbar navbar-expand-sm navbar-toggle">
+                            <ul id="fp-navbar-ul"
+                                class="nav navbar-nav mr-auto d-flex flex-row flex-wrap justify-content-center">
+                                <li class="fp-navbar-li" data-target="#div-fp-carousel" data-slide-to="0" class="active">
+                                    <a href="#" class="fp-navbar-a">Evolução dos primatas Humanos Shippuden</a>
+                                </li>
+                                <li class="fp-navbar-li" data-target="#div-fp-carousel" data-slide-to="1">
+                                    <a href="#" class="fp-navbar-a">YASUOZÃO</a>
+                                </li>
+                                <li class="fp-navbar-li" data-target="#div-fp-carousel" data-slide-to="2">
+                                    <a href="#" class="fp-navbar-a">Batatinha frita 1, 2, 3</a>
+                                </li>
+                                <li class="fp-navbar-li" data-target="#div-fp-carousel" data-slide-to="3">
+                                    <a href="#" class="fp-navbar-a">Rodrigo, o selvagem</a>
+                                </li>
+                                <li class="fp-navbar-li" data-target="#div-fp-carousel" data-slide-to="4">
+                                    <a href="#" class="fp-navbar-a">Bomba patch apenas</a>
+                                </li>
+                                <li class="fp-navbar-li" data-target="#div-fp-carousel" data-slide-to="5">
+                                    <a href="#" id="a-noborder" class="fp-navbar-a">Best regards</a>
+                                </li>
+                            </ul>
+                        </div>
 
+                        <div class="button-feature-property">
+                            <a
+                                href="https://www.youtube.com/channel/UCb8wnvmq1J0GJzjbJFPpKbw/videos"
+                                target="_blank"
+                                id="a-feature-property"
+                            >VIEW ALL CONTENT</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="div-fp-img" class="d-flex flex-wrap col-lg-8 col-12">
+                    <div id="div-fp-carousel" class="carousel slide" data-ride="carousel">
+                        <div id="fp-carousel" class="carousel-inner">
+                            <div class="carousel-item fp-carousel-item active" data-interval="7000">
+                                <iframe
+                                    src="https://www.youtube.com/embed/A-tiTBdFe68"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="carousel-item fp-carousel-item" data-interval="7000">
+                                <iframe
+                                    src="https://www.youtube.com/embed/3NNMsIOAHzY"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="carousel-item fp-carousel-item" data-interval="7000">
+                                <iframe
+                                    src="https://www.youtube.com/embed/fVVzmt-087Y"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="carousel-item fp-carousel-item" data-interval="7000">
+                                <iframe
+                                    src="https://www.youtube.com/embed/_-ygAUQ5tlE"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="carousel-item fp-carousel-item" data-interval="7000">
+                                <iframe
+                                    src="https://www.youtube.com/embed/-V9fTCrRYxw"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="carousel-item fp-carousel-item" data-interval="7000">
+                                <iframe
+                                    src="https://www.youtube.com/embed/3MqFnB35l9w"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#div-fp-carousel" role="button" data-slide="prev">
+                            <i class="material-icons">arrow_back</i>
+                        </a>
+
+                        <a class="carousel-control-next" href="#div-fp-carousel" role="button" data-slide="next">
+                            <i class="material-icons">arrow_forward</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row poetry-content m-0">
+                <div id="div-fp-navbar" class="col-lg-4 col-12">
+                    <div id="div-fp-navbar-int">
+                        <h5 class="h5tittle">Poetry</h5>
                         <div id="navbar-feature-property" class="navbar navbar-expand-sm navbar-toggle">
                             <ul id="fp-navbar-ul"
                                 class="nav navbar-nav mr-auto d-flex flex-row flex-wrap justify-content-center">
@@ -1325,7 +1440,7 @@
                             <a href="https://www.youtube.com/channel/UCb8wnvmq1J0GJzjbJFPpKbw" target="_blank">
                                 <i class="fa fa-youtube-play"></i>
                             </a>
-                            <a href="https://www.instagram.com/lil.picolino/" target="_blank">
+                            <a href="https://www.instagram.com/empresa_jsp/" target="_blank">
                                 <i class="fa fa-instagram"></i>
                             </a>
                             <a href="https://www.twitch.tv/picolino" target="_blank">
