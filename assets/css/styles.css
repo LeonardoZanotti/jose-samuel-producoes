@@ -472,7 +472,7 @@ section.feature-property #div-feature-property .buttons-header .content-button:h
   padding: 0px;
 }
 
-#div-feature-property .poetry-content {
+#div-feature-property #poetry-content {
   display: none;
 }
 

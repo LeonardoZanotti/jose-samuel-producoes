@@ -40,10 +40,10 @@ $(document).ready(function () {
 
 function changeContent(content) {
   if (content === 'videos') {
-    $('.videos-content').css('display', 'flex');
-    $('.poetry-content').css('display', 'none');
+    $('#videos-content').css('display', 'flex');
+    $('#poetry-content').css('display', 'none');
   } else if (content === 'poetry') {
-    $('.videos-content').css('display', 'none');
-    $('.poetry-content').css('display', 'flex');
+    $('#videos-content').css('display', 'none');
+    $('#poetry-content').css('display', 'flex');
   }
 }
