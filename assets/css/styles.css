@@ -728,6 +728,11 @@ section.latest_property div.each_counselor_inside {
   background-color: white;
 }
 
+section.latest_property div.each_counselor_inside img {
+  height: 225px;
+  width: 225px;
+}
+
 section.latest_property img {
   min-height: 190px;
   min-width: 190px;
